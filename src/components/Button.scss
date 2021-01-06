@@ -1,0 +1,21 @@
+$bgColor: #fff9db;
+$y1: #ffe066;
+$y2: #fab005;
+$y3: #e67700;
+$textColor: #212529;
+
+.Button {
+  button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: $textColor;
+    background: $y2;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    width: 4rem;
+  }
+}
