@@ -1,0 +1,32 @@
+$bgColor: #fff9db;
+$y1: #ffe066;
+$y2: #fab005;
+$y3: #e67700;
+$textColor: #212529;
+
+.Header {
+  .container {
+    width: 100%;
+    display: flex;
+    background: $bgColor;
+    color: $textColor;
+    .logo_box {
+      width: 50%;
+      font-size: 3rem;
+      padding: 1rem;
+    }
+    .login_box {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: flex-end;
+      padding: 1rem;
+      .user_name {
+        margin-right: 1rem;
+        color: $textColor;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
